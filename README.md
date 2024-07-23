@@ -1,6 +1,6 @@
-## Project Name: Beaux Cosmetics Shop E-commerce
+## Project Name: Beaux Store E-commerce
 ### About the project
-**Beaux Cosmetics Shop** aims to bring the online cosmetics business in Cambodia to the next level of professionalism and responsibilities. That is why it’s well known throughout the country for its professional leadership and warm-hearted customer service provided by its dealers all around the country. In addition, all BEAUX’s customers could get high-quality products conveniently by buying via an online platform. 
+**Beaux Store** aims to bring the online cosmetics business in Cambodia to the next level of professionalism and responsibilities. That is why it’s well known throughout the country for its professional leadership and warm-hearted customer service provided by its dealers all around the country. In addition, all BEAUX’s customers could get high-quality products conveniently by buying via an online platform. 
 
 ### Tech stack
 - React.js
