@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-white font-secondary text-neutral-primary tracking-wide
+    }
+
+    h1, h2, h3, h4 {
+        @apply font-primary text-neutral tracking-wide
+    }
+
+    .h1 {
+        @apply text-4xl md:text-4xl lg:text-6xl
+    }
+
+    .h2 {
+        @apply text-3xl md:text-3xl lg:text-4xl
+    }
+
+    .h3 {
+        @apply text-2xl
+    }
+
+    .btn {
+        @apply capitalize text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg px-5 py-3 text-center transition-all
+    }
+    .btn-secondary {
+        @apply capitalize text-black bg-gradient-to-r from-[#ffe8d6] via-[#f59a8b] to-[#fa9090] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-[#ffe8d6] dark:focus:ring-[#fa9090] font-medium rounded-lg px-5 py-3 text-center transition-all duration-500
+    }
+
+    .shadow-header {
+        @apply shadow-[0_2px_10px_hsla(0,0%,0%,0.1)];
+    }
+    .shadow-hover {
+        @apply shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)]
+        /* @apply shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] */
+    }
+
+    .section {
+        @apply py-10 lg:py-[60px]
+    }
+
+    /* width */
+    .horizontalCard::-webkit-scrollbar {
+        @apply w-[5px]
+    }
+    
+    /* Track */
+    .horizontalCard::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+    /* Handle */
+    .horizontalCard::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 5px;
+    }
+    
+    /* Handle on hover */
+    .horizontalCard::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+}

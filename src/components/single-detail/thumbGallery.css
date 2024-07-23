@@ -1,0 +1,71 @@
+
+.mainSwiper .swiper-button-next,
+.mainSwiper .swiper-button-prev {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #fa9090;
+    color: #FFF;
+    border-radius: 50% 50%;
+}
+
+/* Change size icon */
+.mainSwiper .swiper-button-next::after,
+.mainSwiper .swiper-button-prev::after {
+    font-size: 1.2rem;
+}
+
+.mainSwiper {
+    width: 100%;
+    height: auto;
+}
+  
+.mainSwiper .swiper-slide {
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainSwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+  
+.thumbSwiper {
+    height: 16%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+/* Active */
+.thumbSwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    opacity: 0.8;
+}
+  
+.thumbSwiper .swiper-slide-thumb-active {
+    opacity: 1;
+    border: 2px solid #fa9090;
+    transform: scale(0.95);
+    transition: all 0.25s;
+}
+  
+.thumbSwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 4px;
+}
+
+/* @media (min-width: 768px) {
+    .thumbSwiper .swiper-slide {
+        height: 75%
+    }  
+} */
